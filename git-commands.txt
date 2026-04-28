@@ -1,1 +1,60 @@
-This is just a sample to validate pull command
+#git commands
+
+Setup & Config
+git config --global user.name "Name" → Set username
+git config --global user.email "Email" → Set email
+git config --list → View all configs
+
+Repository
+git init → Initialize new repo
+git clone <url> → Clone remote repo
+
+Status & Changes
+git status → Check file status
+git diff → View changes
+
+Staging
+git add <file> → Stage specific file
+git add . → Stage all files
+
+Commit
+git commit -m "message" → Save changes locally
+
+Branching
+git branch → List branches
+git branch <name> → Create branch
+git checkout <name> → Switch branch
+git checkout -b <name> → Create + switch
+
+Merge
+git merge <branch> → Merge branch
+
+Remote (GitHub)
+git remote add origin <url> → Add remote repo
+git remote -v → View remotes
+
+Push
+git push origin main → Push code to remote
+
+Pull / Fetch
+git pull origin main → Fetch + merge
+git fetch → Fetch only
+
+Undo
+git restore <file> → Undo changes
+git reset <file> → Unstage file
+git reset --hard → Remove all changes ⚠️
+
+Logs
+git log → Full history
+git log --oneline → Short history
+
+Remove
+git rm <file> → Delete file
+
+Stash
+git stash → Save changes temporarily
+git stash pop → Reapply changes
+
+Fix Permission Issue (your case)
+git config --global --add safe.directory <path> → Mark repo safe
