@@ -1,12 +1,13 @@
+"""Demo module for greeting functions."""
+
+
 def greet(name):
+    """Print a greeting message for the given name."""
     print(f"Hello, {name}")
-    if name == "Rani":
-        print("Welcome back!")
-    else:
-        print("Hi user")
 
 
 def main():
+    """Main function to execute the program."""
     greet("Rani")
 
 
