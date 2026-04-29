@@ -37,8 +37,8 @@ Push
 git push origin main → Push code to remote
 
 Pull / Fetch
-git pull origin main → Fetch + merge
-git fetch → Fetch only
+git pull origin main → pull all the chnges made into the branch file and merge it 
+git fetch → Fetch all the branches from the github repo
 
 Undo
 git restore <file> → Undo changes
