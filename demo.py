@@ -1,8 +1,15 @@
-def my_fnction():
+import os,sys
 
-a=5
-b=3
+def greet(name):
+    print("Hello, "+ name )
+    if(name=="Rani"):
+        print("Welcome back!")
+    else:
+     print("Hi user")
 
-return d 
+def unused_function():
+    x = 10
+    y = 20
+    return x+y
 
-my_fnction()
+greet("Rani")
